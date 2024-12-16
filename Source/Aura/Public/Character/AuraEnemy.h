@@ -7,6 +7,7 @@
 #include "Interaction/EnemyInterface.h"
 #include "AuraEnemy.generated.h"
 
+class AAuraPlayerState;
 /**
  * 
  */
@@ -23,4 +24,7 @@ public:
 
 	UPROPERTY(BlueprintReadOnly)
 	bool bIsHighlighted{ false };
+
+protected:
+	virtual void BeginPlay() override;
 };
