@@ -20,28 +20,28 @@ struct FEffectProperties
 
 	FGameplayEffectContextHandle EffectContextHandle;
 	
-	UPROPERTY(Transient)
+	UPROPERTY()
 	UAbilitySystemComponent* SourceASC;
 
-	UPROPERTY(Transient)
+	UPROPERTY()
 	AActor* SourceAvatarActor;
 
-	UPROPERTY(Transient)
+	UPROPERTY()
 	AController* SourceController;
 
-	UPROPERTY(Transient)
+	UPROPERTY()
 	ACharacter* SourceCharacter;
 
-	UPROPERTY(Transient)
+	UPROPERTY()
 	UAbilitySystemComponent* TargetASC;
 
-	UPROPERTY(Transient)
+	UPROPERTY()
 	AActor* TargetAvatarActor;
 
-	UPROPERTY(Transient)
+	UPROPERTY()
 	AController* TargetController;
 
-	UPROPERTY(Transient)
+	UPROPERTY()
 	ACharacter* TargetCharacter;
 };
 
